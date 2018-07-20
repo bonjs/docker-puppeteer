@@ -16,7 +16,7 @@ RUN yum install git -y
 
 
 
-RUN git clone https://github.com/bonjs/docker-puppeteer.git /data/docker-puppeteer
+RUN git clone test https://github.com/bonjs/docker-puppeteer.git /data/docker-puppeteer
 
 WORKDIR /data/docker-puppeteer
 
