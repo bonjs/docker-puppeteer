@@ -22,6 +22,6 @@ WORKDIR /data/docker-puppeteer
 
 RUN cnpm i 
 
-CMD node /data/docker-puppeteer/index.js
+CMD ['node',  '/data/docker-puppeteer/index.js']
 
 
